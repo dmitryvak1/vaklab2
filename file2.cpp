@@ -43,9 +43,9 @@ void Car::print () const{
 	cout << name << "/" <<color<< "/" << number << "\n\n";
 }
 
-string Car::GetName() { return name; }
-string Car::GetColor() { return color; }
-int Car::GetNumber() { return number; }
+string Car::GetName() const{ return name; }
+string Car::GetColor() const{ return color; }
+int Car::GetNumber() const{ return number; }
 
                             void Car::operator++(){
                             number ++;}
