@@ -23,13 +23,13 @@ public:
 	void print ()const;
 
 	void SetName(string valname);
-	string GetName();
+	string GetName const();
 
 	void SetColor(string valcolor);
-	string GetColor();
+	string GetColor const();
 
 	bool SetNumber(int valnum);
-	int GetNumber();
+	int GetNumber const();
 
                 void operator++();
                 void operator--();
