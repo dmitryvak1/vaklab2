@@ -23,25 +23,25 @@ public:
 	void print ()const;
 
 	void SetName(string valname);
-	string GetName const();
+	string GetName()const;
 
 	void SetColor(string valcolor);
-	string GetColor const();
+	string GetColor()const;
 
 	bool SetNumber(int valnum);
-	int GetNumber const();
+	int GetNumber()const;
 
                 void operator++();
                 void operator--();
 
-                bool operator==(const Car &Car);
-                bool operator!=(const Car &Car);
+                bool operator==(const Car &Car)const;
+                bool operator!=(const Car &Car)const;
 
-                bool operator>=(const Car &Car);
-                bool operator<=(const Car &Car);
+                bool operator>=(const Car &Car)const;
+                bool operator<=(const Car &Car)const;
 
-                bool operator>(const Car &Car);
-                bool operator<(const Car &Car);
+                bool operator>(const Car &Car)const;
+                bool operator<(const Car &Car)const;
 
                 friend ostream& operator<< (ostream &out, const Car &Car);
                 friend istream& operator>> (istream &in,Car &Car);

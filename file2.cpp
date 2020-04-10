@@ -43,7 +43,7 @@ void Car::print () const{
 	cout << name << "/" <<color<< "/" << number << "\n\n";
 }
 
-string Car::GetName() const{ return name; }
+string Car::GetName()const { return name; }
 string Car::GetColor() const{ return color; }
 int Car::GetNumber() const{ return number; }
 
@@ -52,19 +52,19 @@ int Car::GetNumber() const{ return number; }
                             void Car::operator--(){
                             number --;}
 
-                            bool Car::operator==(const Car &Car){
+                            bool Car::operator==(const Car &Car)const{
                             return number == Car.number && name == Car.name && color == Car.color;}
-                            bool Car::operator!=(const Car &Car){
+                            bool Car::operator!=(const Car &Car)const{
                             return !(number == Car.number && name == Car.name && color == Car.color);}
 
-                            bool Car::operator>=(const Car &Car){
+                            bool Car::operator>=(const Car &Car)const{
                             return (number >= Car.number);}
-                            bool Car::operator<=(const Car &Car){
+                            bool Car::operator<=(const Car &Car)const{
                             return (number <= Car.number);}
 
-                            bool Car::operator>(const Car &Car){
+                            bool Car::operator>(const Car &Car)const{
                             return (number > Car.number);}
-                            bool Car::operator<(const Car &Car){
+                            bool Car::operator<(const Car &Car)const{
                             return (number < Car.number);}
 
                             ostream& operator<< (ostream &out, const Car &Car){
