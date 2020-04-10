@@ -20,7 +20,7 @@ public:
 	Car();
 	Car(const Car &rrr3);
 
-	void print const();
+	void print ()const;
 
 	void SetName(string valname);
 	string GetName();

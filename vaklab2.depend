@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1586410657 source:d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab2\main.cpp
+1586496362 source:d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab2\main.cpp
 	"file.h"
 	<string>
 
-1586331090 d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab2\file.h
+1586496653 d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab2\file.h
 	<iostream>
 	<windows.h>
 	<string>
 	<cstdlib>
 	<conio.h>
 
-1586410526 source:d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab2\file2.cpp
+1586496657 source:d:\vakin\учёба\языки програмирования\2 семестр си++\vaklab2\file2.cpp
 	"file.h"
 	<string>
 

@@ -39,7 +39,7 @@ Car::Car(const Car &rrr3) {
 }
 
 
-void Car::print() {
+void Car::print () const{
 	cout << name << "/" <<color<< "/" << number << "\n\n";
 }
 
@@ -69,7 +69,7 @@ int Car::GetNumber() { return number; }
 
                             ostream& operator<< (ostream &out, const Car &Car){
                             out  << Car.name << "/" << Car.color<<"/"<< Car.number;
-                          // out << Car.name << Car.color<< Car.number;
+
                             return out;}
                             istream& operator>> (istream &in, Car &Car){
                             in >> Car.name;
